@@ -11,7 +11,7 @@ git clone -b humble https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_
 cd ws_ur_single
 
 - 下载所需要的包
-- 
+
 vcs import < Universal_Robots_ROS2_Driver/Universal_Robots_ROS2_Driver.humble.repos
 
 ## 方式2
@@ -40,4 +40,5 @@ ros2 launch ur_simulation_gz ur_sim_control.launch.py
 ros2 launch ur_simulation_gz ur_sim_moveit.launch.py  
 
 - 单机械臂 MoveIt + Gazebo + Mujoco
+
 ros2 run joint_state_pkg joint_state_subscriber
